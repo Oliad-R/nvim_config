@@ -18,3 +18,9 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" 
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" })
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc= "Open current file in new tab" })
+
+--diagram management
+keymap.set("n", "<leader>do", ":Diagram enable<CR>", { desc = "Diagram open (mermaid)" })
+keymap.set("n", "<leader>dd", ":Diagram disable<CR>", { desc = "Diagram disable (mermaid)" })
+keymap.set("n", "<leader>dt", ":Diagram toggle<CR>", { desc = "Diagram toggle (mermaid)" })
+

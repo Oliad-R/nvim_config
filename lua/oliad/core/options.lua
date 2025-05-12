@@ -5,6 +5,7 @@ opt.number = true
 
 -- tabs & intendation
 opt.autoindent = true
+opt.shiftwidth = 2
 
 opt.wrap = false
 
